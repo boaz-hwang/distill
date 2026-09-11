@@ -26,6 +26,11 @@ https://github.com/boaz-hwang/distill 을 git clone해서 네 스킬 폴더에 �
 distill로 이 업무를 재사용 가능한 스킬로 만들어줘.
 ```
 
+추천 모델:
+
+- Fable 5.1 high
+- Astra 6 high
+
 ## 동작
 
 1. 이름 후보 3개 중 하나를 추천하고, 결과물 한 줄 설명을 확인받습니다.

@@ -26,6 +26,11 @@ When you're happy with the result, ask in the same session:
 Use distill to turn this task into a reusable skill.
 ```
 
+Recommended models:
+
+- Fable 5.1 high
+- Astra 6 high
+
 ## How it works
 
 1. Recommends one of three skill names and confirms a one-line description of the deliverable.
