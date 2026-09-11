@@ -18,8 +18,6 @@ distill은 스킬에 불필요한 지침이 쌓여 길어지는 문제에서 출
 https://github.com/boaz-hwang/distill 을 git clone해서 네 스킬 폴더에 설치해줘.
 ```
 
-distill 자체는 Python이 필요 없습니다. 생성된 스킬이 코드를 실행할 때만 해당 실행 환경이 필요합니다.
-
 ## 사용
 
 업무 결과에 만족하면, 작업한 세션에서 요청하세요.

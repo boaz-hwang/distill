@@ -18,8 +18,6 @@ Paste this one line into your coding agent.
 Install https://github.com/boaz-hwang/distill in your skills directory using git clone.
 ```
 
-Distill itself does not require Python. A generated skill needs a runtime only if it executes code.
-
 ## Use
 
 When you're happy with the result, ask in the same session:

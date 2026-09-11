@@ -50,7 +50,8 @@ The generated skill should ask only for missing inputs that affect its result.
 Carry over these two confirmation gates only if the target task needs them.
 
 Bundle only needed templates, references, and scripts; link them with relative
-paths. Make session-specific values inputs. Exclude private session content,
+paths. Choose code languages and tools to fit the task and execution environment.
+Make session-specific values inputs. Exclude private session content,
 credentials, and unexplained local dependencies. Past permission for external
 actions is not blanket permission for future runs.
 
@@ -78,8 +79,7 @@ feedback for the smallest justified change to a criterion, template, instruction
 or check, preserving scope.
 
 Check skill metadata and referenced resources; use an available format validator
-when useful. Distill itself requires no Python or other language runtime; only
-generated code may need one. Run generated checks in their required environment,
+when useful. Run generated checks in their required environment,
 reporting any that cannot be run. When feasible and authorized, try fresh input
 using only the skill and declared resources. Distinguish format checks, actual
 execution, and pending human review.
