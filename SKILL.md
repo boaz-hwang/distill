@@ -77,11 +77,12 @@ and untested criteria, and present remaining human review questions. Use subsequ
 feedback for the smallest justified change to a criterion, template, instruction,
 or check, preserving scope.
 
-Validate with `uv run <distill-dir>/scripts/validate_skill.py <skill-dir>`
-(Python 3.10+, uv; Git/network for first-run dependencies), or an available Agent
-Skills validator. This checks packaging, not outcome quality. Run generated checks;
-when feasible and authorized, try fresh input using only the skill and declared
-resources. Distinguish format checks, actual execution, and pending human review.
+Check skill metadata and referenced resources; use an available format validator
+when useful. Distill itself requires no Python or other language runtime; only
+generated code may need one. Run generated checks in their required environment,
+reporting any that cannot be run. When feasible and authorized, try fresh input
+using only the skill and declared resources. Distinguish format checks, actual
+execution, and pending human review.
 
 Deliver the location, verification results, and short human review guide.
 After the two confirmations, finish without adding another approval gate.

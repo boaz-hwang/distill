@@ -6,6 +6,10 @@ You get a skill that performs the task for you when you invoke it.
 
 [한국어](README.ko.md) · [Skill instructions](SKILL.md) · [MIT](LICENSE)
 
+## Background
+
+Distill grew out of a problem: skills get longer as unnecessary instructions accumulate. It trusts capable models to exercise judgment and preserves only the conditions needed to reproduce a result the user is happy with. Its starting point is completed work: extract the successful process and quality criteria, then confirm them with the user. Leave implementation to the model, verify what can be checked with code, and use human judgment for the rest to improve the skill.
+
 ## Install
 
 Paste this one line into your coding agent.
@@ -13,6 +17,8 @@ Paste this one line into your coding agent.
 ```text
 Install https://github.com/boaz-hwang/distill in your skills directory using git clone.
 ```
+
+Distill itself does not require Python. A generated skill needs a runtime only if it executes code.
 
 ## Use
 

@@ -8,7 +8,7 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "scripts"))
+sys.path.insert(0, str(ROOT / "tools"))
 from validate_skill import check
 
 
@@ -81,7 +81,7 @@ class ValidateSkillTests(unittest.TestCase):
         self.assertFalse(check(self.skill)["passed"])
 
     def test_cli_status_and_json(self):
-        command = [sys.executable, str(ROOT / "scripts/validate_skill.py"), str(self.skill)]
+        command = [sys.executable, str(ROOT / "tools/validate_skill.py"), str(self.skill)]
         good = subprocess.run(command, capture_output=True, text=True)
         self.assertEqual(good.returncode, 0, good.stderr)
         self.assertTrue(json.loads(good.stdout)["passed"])
