@@ -26,6 +26,8 @@ before the process is approved or add a third approval gate at delivery.
 
 ## Why this stays small
 
+You get a skill that performs the task for you when you invoke it.
+
 The source of truth is the accepted result and the feedback that made it good.
 The session's entire sequence of tool calls is not a reusable procedure.
 Failed approaches disappear; essential constraints learned through corrections
