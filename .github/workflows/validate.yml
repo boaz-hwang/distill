@@ -1,0 +1,28 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: distill
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install reference validator
+        working-directory: distill
+        run: python -m pip install -r requirements-dev.txt
+      - name: Validate distill
+        working-directory: distill
+        run: python scripts/validate_skill.py .
+      - name: Test validation behavior
+        working-directory: distill
+        run: python -m unittest discover -s tests -v
