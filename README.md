@@ -1,6 +1,6 @@
 # distill
 
-Turn work you're happy with into a skill that can do it again.
+Turn the task you just completed into a skill.
 
 [한국어](README.ko.md) · [Skill instructions](SKILL.md) · [MIT license](LICENSE)
 

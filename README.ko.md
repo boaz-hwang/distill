@@ -1,6 +1,6 @@
 # distill
 
-만족한 결과를 다시 만드는 데 필요한 최소 조건을 스킬로 남깁니다.
+방금 수행한 업무를 skill 로 남기세요.
 
 [English](README.md) · [스킬 본문](SKILL.md) · [MIT 라이선스](LICENSE)
 
