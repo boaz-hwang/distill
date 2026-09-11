@@ -23,7 +23,7 @@ https://github.com/boaz-hwang/distill 을 git clone해서 네 스킬 폴더에 �
 업무 결과에 만족하면, 작업한 세션에서 요청하세요.
 
 ```text
-이 결과면 됐어. distill로 이 업무를 재사용 가능한 스킬로 만들어줘.
+distill로 이 업무를 재사용 가능한 스킬로 만들어줘.
 ```
 
 ## 동작

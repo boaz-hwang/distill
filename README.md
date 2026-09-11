@@ -23,7 +23,7 @@ Install https://github.com/boaz-hwang/distill in your skills directory using git
 When you're happy with the result, ask in the same session:
 
 ```text
-I'm happy with this result. Use distill to turn this task into a reusable skill.
+Use distill to turn this task into a reusable skill.
 ```
 
 ## How it works
