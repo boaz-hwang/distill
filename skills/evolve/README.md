@@ -11,7 +11,7 @@ Evolve reviews one skill's execution records, fixes observed failures and wasted
 Paste this into your coding agent:
 
 ```text
-Clone https://github.com/boaz-hwang/distill and install skills/evolve as evolve in your skills directory.
+Clone https://github.com/boaz-hwang/skilloom and install skills/evolve as evolve in your skills directory.
 ```
 
 ## Use

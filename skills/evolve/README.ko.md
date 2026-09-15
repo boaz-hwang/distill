@@ -11,7 +11,7 @@
 코딩 에이전트에 아래 한 줄을 붙여넣으세요.
 
 ```text
-https://github.com/boaz-hwang/distill 을 git clone해서 skills/evolve를 네 스킬 폴더에 evolve로 설치해줘.
+https://github.com/boaz-hwang/skilloom 을 git clone해서 skills/evolve를 네 스킬 폴더에 evolve로 설치해줘.
 ```
 
 ## 사용
