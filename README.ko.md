@@ -1,6 +1,6 @@
 # Skilloom
 
-좋은 스킬을 만들고, 더 좋게 다듬으세요.
+유용한 스킬을 제대로 만들어보세요.
 
 [English](README.md) · [MIT](LICENSE)
 
