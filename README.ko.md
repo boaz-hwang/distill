@@ -31,5 +31,5 @@ https://github.com/boaz-hwang/skilloom 을 git clone해서 skills/ 안의 네 �
 
 추천 모델:
 
-- Fable 5.1 high
-- Astra 6 high
+- Fable 5.1
+- Astra 6
