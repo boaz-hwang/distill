@@ -43,9 +43,11 @@ Choose languages and tools for the task, without adding unnecessary dependencies
 
 ## 3. Check what changed
 
-Check the revision against the original purpose and essential requirements, its
-metadata, and referenced resources. Preserve useful code checks and human review
-questions; add missing evaluation only where it measures actual quality.
+Check the revision against the original purpose, essential requirements, metadata,
+and referenced resources. Retain meaningful checks and their invocation in the skill;
+add missing evaluation only where it measures actual quality. Instruct the skill to
+run checks before delivery, report failed or untested criteria, and present concrete
+review questions only for judgments code cannot establish.
 
 Match verification to the impact of the edit. Clear wording or duplicate removal
 may need only a requirements comparison. Changes to behavior, templates, or code
@@ -56,10 +58,10 @@ cleanup from measured behavioral improvement; agent judgment is not human approv
 
 ## 4. Deliver the revision
 
-Apply a supported revision while preserving a rollback path and unrelated edits.
+Apply a supported revision without overwriting unrelated edits.
 If a material requirement or necessary quality judgment remains unresolved, retain
 the candidate separately and ask for the specific missing decision. If nothing
 useful needs changing, keep the original.
 
 Report the significant deletions or revisions, what was verified, and any remaining
-human review. Do not claim better task performance just because the skill is shorter.
+human review.

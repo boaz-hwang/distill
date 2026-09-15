@@ -36,15 +36,18 @@ approval. Limit changes to the confirmed skills and mappings.
 
 ## 3. Build the minimal replacement
 
-Preserve restorable baselines of affected skills and stage replacements separately
-from active skill discovery. Extract the shared essentials; review deletion,
-merging/shortening, and revision before adding anything. Do not concatenate source
+Keep restorable originals and stage replacements outside active skill discovery.
+Extract the shared essentials; review deletion, merging/shortening, and revision
+before adding anything. Do not concatenate source
 instructions or turn a successful exception into a universal rule.
 
 Preserve necessary source-specific capabilities through concise input handling or
 templates. Keep only needed resources and code, with relative references and clear
 dependencies. Choose tools and languages for the task. Do not move excess text into
 references or introduce a mandatory chain of other skills to hide complexity.
+Carry meaningful source checks and their invocation into the replacement; instruct
+it to run them before delivery, report failed or untested criteria, and present
+concrete review questions only for judgments code cannot establish.
 If the merge becomes less coherent than the originals, revise the plan with the user.
 
 ## 4. Verify retained capabilities
@@ -64,12 +67,8 @@ and present the staged candidate with the specific gap.
 ## 5. Replace the confirmed sources
 
 After required verification and human judgments, apply only the confirmed mapping.
-Check for intervening edits before replacing anything. Update known references and
-retire only the approved sources from active discovery; keep restorable copies or
-history outside discovery. An untracked baseline needs a real backup, not an assumed
-Git history. Preserve unrelated skills and files.
+Preserve intervening and unrelated edits. Update known references and remove approved
+sources from active discovery, keeping their recovery copies or history outside it.
 
-Report the final mapping, what was preserved, verification results, and rollback
-location. Do not claim fewer active skills while leaving duplicate source skills
-discoverable. Once the plan is approved and verified, finish without another routine
-approval gate.
+Report the final mapping, what was preserved, verification results, and recovery
+location. Finish without another routine approval gate.
