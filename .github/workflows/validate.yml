@@ -23,6 +23,9 @@ jobs:
       - name: Validate distill
         working-directory: distill
         run: python tools/validate_skill.py .
+      - name: Validate evolve
+        working-directory: distill
+        run: python tools/validate_skill.py skills/evolve
       - name: Test validation behavior
         working-directory: distill
         run: python -m unittest discover -s tests -v

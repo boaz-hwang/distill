@@ -6,6 +6,11 @@ You get a skill that performs the task for you when you invoke it.
 
 [한국어](README.ko.md) · [Skill instructions](SKILL.md) · [MIT](LICENSE)
 
+| Skill | Purpose |
+| --- | --- |
+| [distill](SKILL.md) | Create a skill from completed work. |
+| [evolve](skills/evolve/README.md) | Improve one skill from actual execution records. |
+
 ## Background
 
 Distill grew out of a problem: skills get longer as unnecessary instructions accumulate. It trusts capable models to exercise judgment and preserves only the conditions needed to reproduce a result the user is happy with. Its starting point is completed work: extract the successful process and quality criteria, then confirm them with the user. Leave implementation to the model, verify what can be checked with code, and use human judgment for the rest to improve the skill.
